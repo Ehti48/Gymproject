@@ -28,6 +28,7 @@ body {
 .navbar .navBox{
     position: absolute;
     top: 0;
+    background-color: #00000087;
     display: flex;
     width: 100%;
     padding: 1rem 0rem;
@@ -114,8 +115,8 @@ body {
 
 
 .container-fluid3 p {
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin: auto;
     text-align: center;
     background-color: #000000a1;
 }
@@ -267,6 +268,7 @@ body {
  }
 
 .footer{
+    /* border: 2px solid white; */
     display: flex;
     color: white;
     position: relative;
@@ -421,9 +423,6 @@ body {
 
 }
 @media (max-width:1050px){
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
     .navBox ul li a {
         font-size: 1rem;
 }
@@ -463,9 +462,6 @@ body {
         z-index: -9999;
         opacity: 0.3;
     }
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
     .navBox ul li a {
         font-size: 1rem;
 }
@@ -500,9 +496,6 @@ body {
 
 }
 @media (max-width:950px){
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
     .navBox ul li a {
         font-size: 1rem;
 }
@@ -554,9 +547,6 @@ body {
     }
 }
 @media (max-width:850px){
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
     .navBox ul li a {
         font-size: 1rem;
 }
@@ -575,15 +565,6 @@ body {
 .container-fluid4 .img-container2 {
     height: 40vh;
 }
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
-}
 .hr {
     position: relative;
     top: 26rem;
@@ -598,7 +579,7 @@ body {
 }
 @media (max-width:800px){
     .navbar .imageBox{
-        background-image: url('./Img/800px.jpg');
+        background-image: url('./Img/jelmer-assink-gzeTjGu3b_k-unsplash.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -607,9 +588,6 @@ body {
         /* top: 0; */
         z-index: -9999;
         opacity: 0.3;
-    }
-    .navbar .navBox .logo {
-        margin-left: 4rem;
     }
     .navbar .navBox .logo h1{
         font-size: 1.7rem;
@@ -650,15 +628,6 @@ body {
 .container-fluid4 .img2-card2 {
     margin-right: 3rem;
 }
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
-}
 .footer {
     font-size: .8rem;
     padding-top: 0rem;
@@ -678,9 +647,6 @@ body {
 
 }
 @media (max-width:750px){
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
     .navbar .navBox .logo h1{
         font-size: 1.7rem;
     }
@@ -690,20 +656,8 @@ body {
 .navbar .heading {
     font-size: 3rem;
 }
-.container-fluid3 h1 {
-    font-size: 3rem;
-}
-.container-fluid3 p {
-    font-size: .9rem;
-}
-.container-fluid4{
-    height: 85vh;
-}
 .container-fluid4 h1 {
     font-size: 2rem;
-}
-.container-fluid4 h1 span{
-    font-size: 3rem;
 }
 .container-fluid4 .img-container2 {
     height: 36vh;
@@ -716,15 +670,6 @@ body {
 }
 .container-fluid4 .img2-card2 {
     margin-right: 2rem;
-}
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
 }
 .footer {
     font-size: .8rem;
@@ -757,9 +702,9 @@ body {
     .hamburger{
         display: block;
         flex-direction: column;
-        position: fixed;
+        position:absolute;
         width: 50%;
-        height: 100vh;
+        height: 89vh;
         background-color: #2b2a2a;
         top: 67px;
         left: -100%;
@@ -777,7 +722,6 @@ body {
     .hamburger ul li a{
         padding: 5px;
         margin: 10px;
-        background-color: #4a54a2c3;
         border-radius: 4px;
         font-size: 1.4rem;
         font-weight: 500;
@@ -791,9 +735,6 @@ body {
 
     #check:checked ~ .hamburger{
         left: 0;
-    }
-    .navbar .navBox .logo {
-        margin-left: 4rem;
     }
     .navbar .navBox .logo h1{
         font-size: 1.7rem;
@@ -807,44 +748,45 @@ body {
 .container-fluid3 .img-container {
     height: 50vh;
 }
-.container-fluid3 h1 {
-    font-size: 3rem;
-}
-.container-fluid3 p {
-    font-size: .9rem;
-}
-.container-fluid4{
-    height: 85vh;
-}
 .container-fluid4 h1 {
     font-size: 2rem;
-}
-.container-fluid4 h1 span{
-    font-size: 3rem;
 }
 .container-fluid4 .img-container2 {
     height: 35vh;
 }
+.container-fluid4{
+    height: 175vh;
+}
+.container-fluid4 .img-container2 {
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+}
 .container-fluid4 .imageBox-2 {
-    height: 85vh;
+    /* height: 0vh; */
+    width: 50%;
+    margin: auto;
 }
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
+.container-fluid4 .img2-card1{
+   height: 44vh;
+   margin-bottom: 2rem;
 }
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
+.container-fluid4 .img2-card2{
+  height: 44vh;
+      margin-bottom: 2rem;
+
 }
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
+.container-fluid4 .img2-card3 {
+   height: 44vh;
 }
 .footer {
     flex-direction: column;
     font-size: .8rem;
     padding-top: 0rem;
-    top: 47rem;
-    height: 75vh;
+    top: 70rem;
+    height: 120vh;
     width: 90%;
-    margin-left: 2rem;
+    margin: auto;
 }
 .footer .logo{
     position: relative;
@@ -853,394 +795,138 @@ body {
 }
 .hr {
     position: relative;
-    top: 44rem;
-    width: 83%;
-    margin-left: 4.4%;
-    border-bottom: 1px;
+    top: 60rem;
+    width: 89%;
+    margin-left: 5.4%;
 }
 .copyrights{
-    font-size: 1rem;
-    top: 45rem;
-    padding-bottom: 50px;
+    font-size: 0.9rem;
+    top: 61rem;
 }
 
 }
 @media (max-width:650px){
-    .navbar .imageBox{
-        background-image: url('./Img/craig-lovelidge-yDGsn39fbD4-unsplash.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh;
-        /* position: absolute; */
-        /* top: 0; */
-        z-index: -9999;
-        opacity: 0.3;
-    }
- 
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
+
     .navbar .navBox .logo h1{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
-    .navBox ul li a {
-        display: none;
-}
 .navbar .heading {
-    font-size: 2.5rem;
-}
-.container-fluid3 .img-container {
-    height: 40vh;
-}
-.container-fluid3 h1 {
     font-size: 3rem;
-}
-.container-fluid3 p {
-    font-size: .9rem;
-}
-.container-fluid4{
-    height: 85vh;
-}
-.container-fluid4 .img-container2 {
-    width: 90%;
 }
 .container-fluid4 h1 {
     font-size: 2rem;
 }
-.container-fluid4 h1 span{
-    font-size: 3rem;
+.container-fluid4{
+    height: 175vh;
 }
 .container-fluid4 .img-container2 {
-    height: 40vh;
-}
-.container-fluid4 .imageBox-2 {
-    height: 85vh;
-}
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
+    flex-direction: column;
+    height: auto;
+    width: 60%;
 }
 .footer {
     flex-direction: column;
     font-size: .8rem;
     padding-top: 0rem;
-    top: 47rem;
-    height: 70vh;
-    width: 90%;
-    margin-left: 2rem;
+    top: 71rem;
+    height: 120vh;
+    width: 95%;
+    margin: auto;
 }
-.hr {
+.footer .logo{
     position: relative;
-    top: 44rem;
-    width: 83%;
-    margin-left: 4.4%;
-    border-bottom: 1px;
+    bottom: 33rem;
+    left: 14rem;
+    width: 50%;
 }
 .copyrights{
-    font-size: 1rem;
-    top: 45rem;
-    padding-bottom: 50px;
+    font-size: 0.9rem;
+    top: 61rem;
+}
+
+}
+@media (max-width:600px){
+    .navbar .navBox .logo h1{
+        font-size: 1.5rem;
+    }
+.navbar .imageBox {
+    height: 80vh;
+}
+.navbar .heading {
+    font-size: 2rem;
+}
+.container-fluid4 h1 {
+    font-size: 2rem;
+}
+.container-fluid4 .img-container2 {
+    flex-direction: column;
+    height: auto;
+    width: 65%;
+}
+.copyrights{
+    font-size: 0.8rem;
+    top: 61rem;
 }
 
 }
 @media (max-width:550px){
-
-    /* hamburger */
-    .checkbtn{
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-    }
-
-    .hamburger{
-        display: block;
-        flex-direction: column;
-        position: fixed;
-        width: 50%;
-        height: 100vh;
-        background-color: #2b2a2a;
-        top: 67px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;        
-    }
-
-    .hamburger ul li{
-        
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-    }
-
-    .hamburger ul li a{
-        padding: 5px;
-        margin: 10px;
-        background-color: #4a54a2c3;
-        border-radius: 4px;
-        font-size: 1.4rem;
-        font-weight: 500;
-        color: white;
-        text-decoration: none;
-    }
-
-    .hamburger ul li a:hover{
-        background-color: #4A55A2;  
-    }
-
-    #check:checked ~ .hamburger{
-        left: 0;
-    }
-    .navbar .navBox .logo {
-        margin-left: 4rem;
-    }
-    .navbar .navBox .logo h1 {
+    .navbar .navBox .logo h1{
         font-size: 1.3rem;
     }
-    .navBox ul li a {
-        display: none;
-}
-.navbar .heading {
-    font-size: 2.5rem;
-}
-.container-fluid3 h1 {
-    font-size: 3rem;
-}
-.container-fluid3 p {
-    font-size: .9rem;
-}
-.container-fluid4{
-    height: 85vh;
-}
-.container-fluid4 .img-container2 {
-    width: 90%; 
-}
 .container-fluid4 h1 {
-    font-size: 1.6rem;
-}
-.container-fluid4 h1 span {
-    font-size: 2.6rem;
+    font-size: 1.8rem;
 }
 .container-fluid4 h1 span{
-    font-size: 2.6rem;
+    font-size: 2.5rem;
 }
-.container-fluid4 .img-container2 {
-    height: 35vh;
 }
-.container-fluid4 .imageBox-2 {
-    height: 85vh;
-}
-.container-fluid4 .img2-card1 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .6rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .6rem;
-}
-.footer {
-    flex-direction: column;
-    font-size: .8rem;
-    padding-top: 0rem;
-    top: 47rem;
-    height: 70vh;
-    width: 90%;
-    margin-left: 2rem;
-}
-.hr {
-    position: relative;
-    top: 44rem;
-    width: 83%;
-    margin-left: 4.4%;
-    border-bottom: 1px;
-}
-.copyrights{
-    font-size: .8rem;
-    top: 45rem;
-    padding-bottom: 40px;
-}
-
-}
-
 @media (max-width:500px){
-
-.footer{
-    top: 50rem;
-}
-.navbar .navBox .logo h1 {
-    font-size: 1.2rem;
-}
-.navbar .heading{
-    font-size: 2rem;
-}
-.container-fluid3 p {
-    font-size: .8rem;
-}
-.container-fluid4 .img-container2 {
-    width: 90%;
-    margin-left: 18px;
+    .navbar .navBox .logo h1{
+        font-size: 1.2rem;
+    }
+.container-fluid3 .img-container {
+    flex-wrap: wrap;
+    height: 50vh;
 }
 .container-fluid3 .img-card2 img {
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
-.hr {
-    position: relative;
-    top: 44rem;
-    width: 83%;
-    margin-left: 4.4%;
-    border-bottom: 1px;
+.container-fluid4 h1 {
+    font-size: 1.7rem;
 }
-.copyrights{
-    font-size: .8rem;
-    top: 45rem;
+.container-fluid4 h1 span{
+    font-size: 2.3rem;
 }
 
+.container-fluid4 .img-container2 {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+}
+.footer .logo{
+    position: relative;
+    bottom: 33rem;
+    left: 10rem;
+    font-size: 0.7rem;
+}
 
 }
 @media (max-width:450px){
     .navbar .navBox .logo h1{
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
-    .container-fluid4 .img2-card3 img {
-        width: 60%;
-        position: relative;
-        top: 31px;
-        border-radius: 5px;
-        margin: 0px 20px;
-}
-.container-fluid4 {
-    height: 70vh;
-}
-.container-fluid4 .img2-card1 {
-    margin-right: 1rem;
-}
-.container-fluid4 .img2-card2 {
-    margin-right: 1rem;
-}
-.container-fluid4 .img2-card2 img {
-    width: 60%;
-    position: relative;
-    top: 45px;
-}
-.navbar .navBox .logo h1 {
-    font-size: 1rem;
-}
-.navbar .imageBox {
-    height: 75vh;
-
-}
 .navbar .heading {
     font-size: 1.5rem;
+}
+.navbar .imageBox {
+    height: 70vh;
 }
 .container-fluid3 h1 {
     font-size: 2.5rem;
 }
 .copyrights{
-    font-size: .8rem;
-    top: 45rem;
+    font-size: 0.6rem;
+    top: 61rem;
 }
 
 }
-
-@media (max-width:400px){
-    .navbar .navBox .logo {
-        margin-top: 1rem;
-        margin-left: 1rem;
-}
-    .container-fluid4 .img2-card3 img {
-        width: 60%;
-        position: relative;
-        top: 31px;
-        border-radius: 5px;
-        margin: 0px 20px;
-}
-.container-fluid4 {
-    height: 70vh;
-}
-.container-fluid4 .img2-card1 {
-    margin-right: 1rem;
-}
-.container-fluid4 .img2-card2 {
-    margin-right: 1rem;
-}
-.container-fluid4 .img2-card2 img {
-    width: 60%;
-    position: relative;
-    top: 45px;
-}
-.navbar .navBox .logo h1 {
-    font-size: .9rem;
-}
-.navbar .imageBox {
-    height: 75vh;
-
-}
-.navbar .heading {
-    font-size: 1.5rem;
-}
-.container-fluid3 h1 {
-    font-size: 2.5rem;
-}
-.footer .logo h1{
-    font-size: 1rem;
-}
-.copyrights{
-    font-size: .8rem;
-    top: 45rem;
-}
-
-}
-@media (max-width:350px){
-    .navbar .navBox .logo {
-        margin-top: 1rem;
-        margin-left: 2rem;
-}
-.navbar .navBox .logo h1 {
-    font-size: .9rem;
-}
-.container-fluid4 .img-container2 {
-    height: 31vh;
-}
-.container-fluid3 .img-card2 img {
-    margin: 0px 10px;
-}
-.container-fluid4 .img2-card1 h3 {
-    font-size: .5rem;
-}
-.container-fluid4 .img2-card2 h3 {
-    font-size: .5rem;
-}
-.container-fluid4 .img2-card3 h3 {
-    font-size: .5rem;
-}
-    .footer{
-        height: 0;
-    }
-    .footer .logo{
-        left: 12rem;
-        
-    }
-    .footer .logo p{
-      display: none;
-
-    }
-    .hr {
-        top: 66rem;
-        margin-left: 8.4%;
-    }
-    .copyrights{
-        font-size: .6rem;
-        top: 66rem;
-        padding-bottom: 30px;
-    }
-
-}
-
-
