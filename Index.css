@@ -930,3 +930,50 @@ body {
 }
 
 }
+@media (max-width:400px){
+    .navbar .navBox .logo h1{
+        font-size: .9rem;
+    }
+.navbar .heading {
+    font-size: 1.5rem;
+}
+.navbar .imageBox {
+    height: 70vh;
+}
+.container-fluid3 h1 {
+    font-size: 2.5rem;
+}
+.container-fluid4 .img2-card1{
+    height: 40vh;
+ }
+ .container-fluid4 .img2-card2{
+   height: 40vh;
+ }
+ .container-fluid4 .img2-card3 {
+    height: 40vh;
+ }
+.copyrights{
+    font-size: 0.6rem;
+    top: 61rem;
+}
+
+}
+@media (max-width:350px){
+    .navbar .navBox .logo h1{
+        font-size: .9rem;
+    }
+.navbar .heading {
+    font-size: 1.5rem;
+}
+.navbar .imageBox {
+    height: 70vh;
+}
+.container-fluid3 h1 {
+    font-size: 2.5rem;
+}
+.copyrights{
+    font-size: 0.6rem;
+    top: 61rem;
+}
+
+}
