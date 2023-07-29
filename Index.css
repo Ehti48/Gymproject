@@ -26,15 +26,15 @@ body {
 }
 
 .navbar .navBox{
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #00000087;
     display: flex;
     width: 100%;
     padding: 1rem 0rem;
-    /* background-color: aqua; */
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
 }
 .navbar .navBox #check{
     font-size: 24px;
@@ -694,9 +694,10 @@ body {
     /* hamburger */
     .checkbtn{
         display: block;
-        position: absolute;
+        position: fixed;
         top: 1rem;
         right: 1rem;
+        z-index: 9999;
     }
 
     .hamburger{
@@ -735,6 +736,8 @@ body {
 
     #check:checked ~ .hamburger{
         left: 0;
+        position: fixed;
+        z-index: 9999;
     }
     .navbar .navBox .logo h1{
         font-size: 1.7rem;
