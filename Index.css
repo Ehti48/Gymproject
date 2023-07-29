@@ -390,6 +390,11 @@ body {
 #check{
     display: none;
 }
+@media (max-width:1450px){
+.footer{
+    top: 50rem;
+}
+}
 
 @media (max-width:1100px){
     .navbar .navBox .logo {
