@@ -28,7 +28,7 @@ body {
 .navbar .navBox{
     position: fixed;
     top: 0;
-    background-color: #00000087;
+    background-color: #222222;
     display: flex;
     width: 100%;
     padding: 1rem 0rem;
@@ -695,7 +695,7 @@ body {
     .checkbtn{
         display: block;
         position: fixed;
-        top: 1rem;
+        top: .5rem;
         right: 1rem;
         z-index: 9999;
     }
@@ -706,7 +706,7 @@ body {
         position:absolute;
         width: 50%;
         height: 89vh;
-        background-color: #2b2a2a;
+        background-color: #222222;
         top: 67px;
         left: -100%;
         text-align: center;
@@ -962,6 +962,9 @@ body {
 
 }
 @media (max-width:350px){
+    .navbar .navBox {
+        width: 500px;
+    }
     .navbar .navBox .logo h1{
         font-size: .9rem;
     }
